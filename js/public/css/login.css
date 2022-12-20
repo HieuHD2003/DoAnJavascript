@@ -1,0 +1,313 @@
+/* html {
+    font-size: 62.5%;
+    font-family: "Poppins", sans-serif;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f2f3f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+  }
+  .signup {
+    padding: 90px 75px;
+    background-color: #fff;
+    width: 100%;
+    max-width: 600px;
+    border-radius: 30px;
+  }
+  .signup-heading {
+    font-size: 40px;
+    font-weight: bold;
+    color: #373941;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+  .signup-social {
+    padding: 10px;
+    border-radius: 20px;
+    display: block;
+    width: 100%;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+    border: 0;
+    background-color: #4c6ff4;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 5px 10px 0 rgba(76, 111, 244, 0.5);
+  }
+  .signup-social-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #4c6ff4;
+    font-size: 30px;
+  }
+  .signup-social-text {
+    display: block;
+    margin: 0 auto;
+  }
+  .signup-or {
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+    margin: 55px auto;
+    position: relative;
+  }
+  .signup-or span {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #fff;
+    position: relative;
+    z-index: 2;
+  }
+  .signup-or:after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #999;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  .signup-label {
+    font-size: 16px;
+    color: #63676b;
+    font-weight: 500;
+    margin-bottom: 10px;
+    display: inline-block;
+    cursor: pointer;
+  }
+  .signup-input {
+    display: block;
+    width: 100%;
+    padding: 25px;
+    border-radius: 14px;
+    background-color: #f2f3f5;
+    outline: none;
+    border: 0;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  .signup-input::-webkit-input-placeholder {
+    color: #b4bac0;
+    font-weight: 500;
+  }
+  .signup-input::-moz-input-placeholder {
+    color: #b4bac0;
+    font-weight: 500;
+  }
+  .signup-submit {
+    padding: 25px;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    border: 0;
+    outline: none;
+    display: inline-block;
+    width: 100%;
+    border-radius: 14px;
+    background-color: rgb(130, 201, 30);
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 5px 10px 0 rgba(130, 201, 30, 0.5);
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .signup-already {
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+  }
+  .signup-login-link {
+    color: #2979ff;
+    text-decoration: none;
+  } */
+
+* {
+  margin: o;
+  padding: 0;
+  /* font-size: 25px; */
+}
+
+body {
+  /* background-color: bisque; */
+  background-image: url(../img/logo_food.gif);
+  /* background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%); */
+  background-color: #fff;
+  background-repeat: no-repeat;
+  /* padding-left: 50px; */
+  /* margin-left: 20px; */
+}
+
+.signup {
+  margin: 50px 0 0 710px;
+  width: 390px;
+  height: 580px;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.signup h1.signup-heading {
+  text-align: center;
+  padding: 25px 0 25px 0;
+  background-color: #fff;
+  /* padding: 20px; */
+  font-size: 45px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.signup .email-group,
+.signup .password-group {
+  margin-left: 50px;
+}
+.password-group .signup-input,
+.email-group .signup-input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 290px;
+  height: 48px;
+  text-align: center;
+}
+.email-group i.ti-user,
+.password-group i.ti-lock {
+  position: absolute;
+  /* top: 0; */
+  margin-top: 16px;
+  margin-left: 10px;
+}
+
+/* .password-group .signup-input,
+.email-group .signup-input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 290px;
+  height: 48px;
+  text-align: center;
+}
+.signup .ti-user {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 226px 0 0 250px;
+}
+.signup .password-group,
+.signup .email-group {
+  padding-left: 48px;
+  /* margin-top: 30px; */
+}
+
+i.ti-lock {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 312px 0 0 250px;
+}
+
+.signup .password-group {
+  margin-top: 20px;
+}
+
+.signup .signup-submit {
+  border: none;
+  width: 290px;
+  height: 48px;
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: #088da5;
+  color: #fff;
+  border-radius: 30px;
+  /* background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%); */
+}
+
+.signup .signup-submit:hover {
+  background-color: #00DBDE;
+
+}
+
+.signup .signup-submit:hover {
+  /* background-position: 0 100%; */
+  /* background-size: auto 6px; */
+  /* background-repeat: repeat-x; */
+  /* text-decoration: none; */
+  /* background-position: 0 100%; */
+  /* background-repeat: repeat-x; */
+  background-size: 3px 3px;
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.signup .signup-already a.signup-login-link {
+  margin-left: 162px;
+  text-decoration: none;
+}
+
+.infor .ti-facebook,
+.infor .ti-email,
+.infor .ti-twitter {
+  width: 20px;
+  height: 20px;
+  padding: 16px;
+  border-radius: 50%;
+  color: #fff;
+  margin: 80px 5px 0 5px;
+}
+.infor .ti-facebook {
+  background-color: #491dae;
+  margin-left: 110px;
+  cursor: pointer;
+}
+
+.infor .ti-email {
+  background-color: #00DBDE;
+  cursor: pointer;
+}
+
+.infor .ti-twitter {
+  background-color: red;
+  cursor: pointer;
+}
+
+.signup .register {
+  width: 100px;
+  height: 20px;
+  border-radius: 30px;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  margin-top: 35px;
+  margin-left: 135px;
+  position: absolute;
+  background-color: #088da5;
+  color: #fff;
+}
+
+.signup .register:hover {
+  background-color: #00DBDE;
+}
+
+
+
+
